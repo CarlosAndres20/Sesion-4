@@ -1,0 +1,25 @@
+div {
+	background-color: lightcyan;
+}
+#caja1 {
+	display: block;
+	background-color: darkgreen;
+	margin: 100px;
+	padding: 100px;
+}
+#caja2,#caja3 {
+	display: inline;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+#caja4{
+	display: none;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	border: 10px;
+}
+body {
+	background-color: darkcyan;
+}
