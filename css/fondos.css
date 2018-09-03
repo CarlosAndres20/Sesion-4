@@ -37,4 +37,40 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-origin: content-box;
+	-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+#A5 {
+	background-image: url('../img/dh.jpeg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-shadow: 50px 10px 0 #7B42FF;
+}
+#A6 {
+	background-image: url('../img/dh.jpeg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-origin: content-box;
+	resize: horizontal;
+	-webkit-box-shadow:inset 5px 8px 8px 1px #FF3037;
+box-shadow:inset 5px 8px 8px 1px #FF3037;
+
+}
+#A7 {
+	background-image: url('../img/dh2.jpeg');
+	background-repeat:no-repeat;
+	background-size: contain;
+	-webkit-box-shadow: 0 3px 5px 5px #E39B1E;
+box-shadow: 0 3px 5px 5px #E39B1E;
+}
+#A8 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87bcea+0,539fe1+21,d0e4f7+39,0a77d5+50,d0e4f7+66,73b1e7+76,d0e4f7+100 */
+background: rgb(135,188,234); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(135,188,234,1) 0%, rgba(83,159,225,1) 21%, rgba(208,228,247,1) 39%, rgba(10,119,213,1) 50%, rgba(208,228,247,1) 66%, rgba(115,177,231,1) 76%, rgba(208,228,247,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(135,188,234,1) 0%,rgba(83,159,225,1) 21%,rgba(208,228,247,1) 39%,rgba(10,119,213,1) 50%,rgba(208,228,247,1) 66%,rgba(115,177,231,1) 76%,rgba(208,228,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(135,188,234,1) 0%,rgba(83,159,225,1) 21%,rgba(208,228,247,1) 39%,rgba(10,119,213,1) 50%,rgba(208,228,247,1) 66%,rgba(115,177,231,1) 76%,rgba(208,228,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87bcea', endColorstr='#d0e4f7',GradientType=1 ); /* IE6-9 */
+-webkit-box-shadow: 3px 6px 9px 5px #FF4F4F;
+box-shadow: 3px 6px 9px 5px #FF4F4F;
 }

@@ -1,0 +1,35 @@
+*{
+	margin: 10px;
+	padding: 0px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box; 
+	box-sizing: border-box;
+}
+div{
+
+}
+#mario1,#mario3{
+	width: 250px;
+	height: 150px;
+	background-image: url('../img/ladrillo.png'),
+						url('../img/nubes.png'),
+						url('../img/mario.png');
+	background-position: bottom, top;
+	background-repeat: repeat-x,repeat-x, no-repeat;
+	border: 2px solid blue;
+	background-color: skyblue;
+}
+#mario2{
+	width: 400px;
+	height: 300px;
+	background-image: url('../img/ladrillo.png'),
+						url('../img/nubes.png'),
+						url('../img/mario.png');
+	background-position: bottom, top;
+	background-repeat: repeat-x,repeat-x, no-repeat;
+	border: 5px solid red;
+	background-color: skyblue;
+}
+div {
+	background: url('img/ladrillo');
+}
